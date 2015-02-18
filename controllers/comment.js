@@ -25,8 +25,8 @@ module.exports = {
         });
 
         //go in and add Anonymous to old posts with no name and remove old posts with no comment
-        if (Comment.name == "") Comment.name = "Anonymous";
-        if (Comment.comment == "") comments.remove(comments);
+        // if (Comment.name == "") Comment.name = "Anonymous";
+        // if (Comment.comment == "") comments.remove(comments);
         
         //save to db as anonymous if no name is entered and do nothing if no comment is entered
         if (newComment.comment == "") {
