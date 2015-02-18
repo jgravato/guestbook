@@ -1,0 +1,8 @@
+input, textarea { margin: 10px 0;}
+p {margin: 10px 0 0 0 !important;}
+body {background-color: #eee;}
+div.panel-body {padding: 0 !important;}
+/*ul{padding: 0 !important;}*/
+li {background: #fff; padding: 15px !important;}
+li:nth-child(even) {background: #f0f8ff;};
+/*div.form-box {padding: 15px !important;}*/
